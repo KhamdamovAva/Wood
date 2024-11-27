@@ -8,8 +8,8 @@ function Home() {
     <>
       <Header />
       <main>
-        <section className='Container pt-[70px]'>
-          <div>
+        <section className='Container '>
+          <div className='pt-[70px]'>
             <h4>Категории</h4>
             <h4>Товаров</h4>
           </div>
