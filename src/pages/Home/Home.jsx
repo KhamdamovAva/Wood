@@ -9,11 +9,18 @@ function Home() {
       <Header />
       <main>
         <section className='Container '>
-          <div className='pt-[70px]'>
-            <h4>Категории</h4>
-            <h4>Товаров</h4>
+
+          <div className='pt-[70px] flex justify-between items-center'>
+            <div className='uppercase text-[36px] w-[270px]'>
+              <div className='flex'>
+                <h4 className='text-[#222]'>Категории</h4>
+                <span className='text-[#D8A47A] text-[11px]'>9 категорий</span>
+              </div>
+              <h4 className='text-[#aca095] text-end pr-[30px]'>Товаров</h4>
+            </div>
+              <OutLineBtn>Все товары</OutLineBtn>
+
           </div>
-          <OutLineBtn>Все товары</OutLineBtn>
         </section>
       </main>
 
