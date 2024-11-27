@@ -4,10 +4,7 @@ function AppRouter() {
   return (
     <>
       <Router>
-        <Header />
-        <Routes>
-        </Routes>
-        <Footer />
+
       </Router>
     </>
   )
