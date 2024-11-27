@@ -9,6 +9,7 @@ function Home() {
       <Header />
       <main>
         <section className='Container '>
+
           <div className='pt-[70px] flex justify-between items-center'>
             <div className='uppercase text-[36px] w-[270px]'>
               <div className='flex'>
@@ -18,6 +19,7 @@ function Home() {
               <h4 className='text-[#aca095] text-end pr-[30px]'>Товаров</h4>
             </div>
               <OutLineBtn>Все товары</OutLineBtn>
+
           </div>
         </section>
       </main>
