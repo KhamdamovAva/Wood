@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className='flex items-center justify-between text-[14px] font-medium mb-[26px]'>
       <a href="#"><img src={ambarIcon} alt="Logotype" /></a>
-      <ul className='flex space-x-[44px]'>
+      <ul className='flex space-x-[44px] text-[#222222]'>
         <li><a href="#">Каталог</a></li>
         <li><a href="#">Об амбарной доске</a></li>
         <li><a href="#">Наши работы</a></li>
