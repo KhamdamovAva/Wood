@@ -10,7 +10,6 @@ function Home() {
       <Header />
       <main>
         <section className='Container '>
-
           <div className='pt-[70px] flex justify-between items-center'>
             <div className='uppercase text-[36px] w-[270px]'>
               <div className='flex'>
