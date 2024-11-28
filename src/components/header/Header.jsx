@@ -5,7 +5,7 @@ import HeaderMain from '../headerMain/HeaderMain'
 function Header() {
   return (
     <>
-      <header >
+      <header>
         <div className='headerContainer '>
           <Navbar />
           <HeaderMain />
