@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+
 a {
   color: inherit;
 }
@@ -15,6 +16,7 @@ a {
 body {
   background-color: #f8f3ef;
 }
+
 .headerContainer {
   max-width: 1400px;
   padding: 0px 15px;
