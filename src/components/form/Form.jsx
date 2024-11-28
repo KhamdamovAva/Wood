@@ -13,11 +13,11 @@ function Form() {
           <div className='text-[#F8F3EF] flex items-end space-x-7'>
             <div>
               <p className='mb-[10px] '>Ваше имя</p>
-              <input className='w-[250px] p-[10px] rounded-[5px] text-[black] h-[64px]' type="text" name="username" placeholder='Анастасия' />
+              <input className='w-[250px] p-[10px] rounded-[5px] text-[black] h-[58px]' type="text" name="username" placeholder='Анастасия' />
             </div>
             <div>
               <p className='mb-[10px] '>Ваш телефон</p>
-              <input className='w-[250px] p-[10px] rounded-[5px] text-[black] h-[64px]' type="tel" name="userphone" placeholder='+7 (999) 999 99-99' />
+              <input className='w-[250px] p-[10px] rounded-[5px] text-[black] h-[58px]' type="tel" name="userphone" placeholder='+7 (999) 999 99-99' />
             </div>
             <BigOrangeBtn>Оставить заявку</BigOrangeBtn>
           </div>
