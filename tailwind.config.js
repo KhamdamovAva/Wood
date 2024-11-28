@@ -15,6 +15,7 @@ export default {
         'category_img6': "url('./src/assets/images/Category_img6.png')",
         'category_img7': "url('./src/assets/images/Category_img7.png')",
         'category_img8': "url('./src/assets/images/Category_img8.png')",
+        'category_img9': "url('./src/assets/images/Category_img9.png')",
       }
     },
   },
