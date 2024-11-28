@@ -2,6 +2,9 @@ import React from 'react'
 import Header from '../../components/header/Header'
 import OutLineBtn from '../../components/buttons/OutLineBtn/OutLineBtn'
 import arrow from '../../assets/icons/catygories_arrow_icon.png'
+import Form from '../../components/form/Form'
+import formImage from '../../assets/images/formImage.png'
+
 
 function Home() {
   return (
@@ -9,7 +12,7 @@ function Home() {
       <Header />
       <main>
         <section className='Container '>
-          <div className='pt-[70px] flex justify-between items-center '>
+          <div className='pt-[70px] flex justify-between items-center'>
             <div className='uppercase text-[36px] w-[270px]'>
               <div className='flex'>
                 <h4 className='text-[#222]'>Категории</h4>
@@ -73,9 +76,11 @@ function Home() {
               </div>
             </div>
           </div>
-
         </section>
-      </main>
+        <section className='min-h-[562px] bg-cover bg-center  bg-no-repeat ' style={{ backgroundImage: `url(${formImage})` }} >
+          <Form />
+        </section>
+      </main >
 
     </>
   )
