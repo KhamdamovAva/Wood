@@ -20,7 +20,7 @@ function Home() {
               </div>
               <h4 className='text-[#aca095] text-end pr-[30px]'>Товаров</h4>
             </div>
-              <OutLineBtn>Все товары</OutLineBtn>
+            <OutLineBtn>Все товары</OutLineBtn>
           </div>
           <div className='w-[100%] flex space-x-[30px]'>
             <div className="mt-[40px] mb-[50px] ">
