@@ -8,7 +8,9 @@
   box-sizing: border-box;
 }
 
-
+.swiper-pagination-bullet-active {
+  background-color: #cc9872 !important;
+}
 a {
   color: inherit;
 }
