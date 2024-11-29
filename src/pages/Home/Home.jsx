@@ -32,7 +32,7 @@ function Home() {
             </div>
             <OutLineBtn>Все товары</OutLineBtn>
           </div>
-          <Category /
+          <Category />
         </section>
         <section
           className="min-h-[562px] bg-cover bg-center  bg-no-repeat mb-[60px]"
