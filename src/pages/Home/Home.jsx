@@ -12,9 +12,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { slides } from "../../Data/projectSlider";
-import Category from '../../components/category/Category';
-import img_prev from '../../assets/images/img_prev.png';
+import Category from '../../components/category/Category'
+import img_prev from '../../assets/images/img_prev.png'
+import Location from '../../components/Location/Location';
 import cooperationBg from '../../assets/images/cooperationBg.png'
+
 function Home() {
   const [playing, setPlaying] = useState(false);
 
@@ -40,6 +42,7 @@ function Home() {
           style={{ backgroundImage: `url(${formImage})` }}>
           <Form bid="Оставьте заявку или позвоните нам по номеру:" phone="+7 (929) 590 82-87" title="есть вопросы?" subtitle="с радостью ответим на них!" />
         </section>
+
         <section className="Container min-h-[700px]">
           <div className="flex justify-between items-end mb-[50px]">
             <div>
@@ -92,6 +95,7 @@ function Home() {
 
           </div>
         </section>
+
         <section className='min-h-[662px] mb-[70px]'>
           <div className='Container mx-auto px-4'>
             <FormTitle blackTitle="СМОТРИТЕ НАС" subtitle="на YOUTUBE" />
@@ -141,6 +145,11 @@ function Home() {
         <section className="min-h-[562px] bg-cover bg-center  bg-no-repeat mb-[60px]"
           style={{ backgroundImage: `url(${cooperationBg})` }}>
           <Form paragraph1="Если вы дизайнер интерьера, архитектор или дилер, то для вас специальные условия." paragraph2="Оставляйте заявку и мы вам подробно расскажем по телефону." title="приглашаем" subtitle="к сотрудничеству!" />
+        </section>
+          <section className='min-h-[822px]'>
+          <div className='Container'>
+            <Location />
+          </div>
         </section>
       </main>
     </>
