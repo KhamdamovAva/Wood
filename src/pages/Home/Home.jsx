@@ -40,7 +40,7 @@ function Home() {
           style={{ backgroundImage: `url(${formImage})` }}>
           <Form bid="Оставьте заявку или позвоните нам по номеру:" phone="+7 (929) 590 82-87" title="есть вопросы?" subtitle="с радостью ответим на них!" />
         </section>
-        <section className="Container h-screen">
+        <section className="Container min-h-[700px]">
           <div className="flex justify-between items-end mb-[50px]">
             <div>
               <FormTitle blackTitle="реализовали" subtitle="более 500 проектов" />
@@ -100,7 +100,7 @@ function Home() {
               <div className='relative w-full max-w-full h-[531px] overflow-hidden rounded-[40px] shadow-lg aspect-w-16 aspect-h-9 group'>
                 {/* Фоновое изображение с кнопкой воспроизведения */}
                 <img
-                  src={img_prev} // Замените на путь к вашему изображению
+                  src={img_prev}
                   alt="Видео превью"
                   className="w-full h-full object-cover"
                 />
@@ -142,8 +142,6 @@ function Home() {
           style={{ backgroundImage: `url(${cooperationBg})` }}>
           <Form paragraph1="Если вы дизайнер интерьера, архитектор или дилер, то для вас специальные условия." paragraph2="Оставляйте заявку и мы вам подробно расскажем по телефону." title="приглашаем" subtitle="к сотрудничеству!" />
         </section>
-
-
       </main>
     </>
   );
