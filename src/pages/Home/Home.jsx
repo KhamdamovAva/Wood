@@ -16,6 +16,7 @@ import Category from '../../components/category/Category'
 import img_prev from '../../assets/images/img_prev.png'
 import Location from '../../components/Location/Location';
 import cooperationBg from '../../assets/images/cooperationBg.png'
+import Footer from '../../components/footer/Footer';
 
 function Home() {
   const [playing, setPlaying] = useState(false);
@@ -146,12 +147,15 @@ function Home() {
           style={{ backgroundImage: `url(${cooperationBg})` }}>
           <Form paragraph1="Если вы дизайнер интерьера, архитектор или дилер, то для вас специальные условия." paragraph2="Оставляйте заявку и мы вам подробно расскажем по телефону." title="приглашаем" subtitle="к сотрудничеству!" />
         </section>
-          <section className='min-h-[822px]'>
+        <section className='min-h-[822px]'>
           <div className='Container'>
             <Location />
           </div>
         </section>
       </main>
+      <footer className='bg-[#34353D] min-h-[367px] p-[60px]'>
+        <Footer />
+      </footer>
     </>
   );
 }
