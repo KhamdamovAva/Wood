@@ -100,7 +100,7 @@ function Home() {
         <section className='min-h-[662px] mb-[70px]'>
           <div className='Container mx-auto px-4'>
             <FormTitle blackTitle="СМОТРИТЕ НАС" subtitle="на YOUTUBE" />
-            <div className='min-h-[531px] flex justify-center items-center'>
+            <div className='min-h-[531px] flex justify-center items-center mt-[46px]'>
               {/* Видеоплеер */}
               <div className='relative w-full max-w-full h-[531px] overflow-hidden rounded-[40px] shadow-lg aspect-w-16 aspect-h-9 group'>
                 {/* Фоновое изображение с кнопкой воспроизведения */}
