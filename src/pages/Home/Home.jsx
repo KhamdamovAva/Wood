@@ -17,6 +17,7 @@ import img_prev from '../../assets/images/img_prev.png'
 import Location from '../../components/Location/Location';
 import cooperationBg from '../../assets/images/cooperationBg.png'
 import Footer from '../../components/footer/Footer';
+import BigOrangeBtn from '../../components/buttons/BigOrangeBtn/BigOrangeBtn';
 
 function Home() {
   const [playing, setPlaying] = useState(false);
@@ -100,7 +101,7 @@ function Home() {
         <section className='min-h-[662px] mb-[70px]'>
           <div className='Container mx-auto px-4'>
             <FormTitle blackTitle="СМОТРИТЕ НАС" subtitle="на YOUTUBE" />
-            <div className='min-h-[531px] flex justify-center items-center'>
+            <div className='min-h-[531px] flex justify-center items-center mt-[46px]'>
               {/* Видеоплеер */}
               <div className='relative w-full max-w-full h-[531px] overflow-hidden rounded-[40px] shadow-lg aspect-w-16 aspect-h-9 group'>
                 {/* Фоновое изображение с кнопкой воспроизведения */}
@@ -150,6 +151,23 @@ function Home() {
         <section className='min-h-[822px]'>
           <div className='Container'>
             <Location />
+            <div className='mt-[67px] flex items-center px-[57px] justify-between'>
+                <div>
+                  <div className='flex text-[30px] space-x-[20px]'>
+                    <h3 className='uppercase text-[#222222] font-light'>оставьте</h3>
+                    <p className='uppercase text-[#ACA095] font-light '>ваш e-mail</p>
+                  </div>
+                  <p className='text-[18px] mt-[20px]'>И будьте в курсе наших <span className='font-bold'>секретных акций</span></p>
+                </div>
+                <form action="#" className='space-x-3'>
+                  <input 
+                    type="text"
+                    placeholder='Ваш e-mail'
+                    className=' text-[18px] font-medium rounded-[5px] w-[250px] h-[58px] py-[20px] px-[22px] border-2 border-[#D8A47A]'/>
+                  <BigOrangeBtn type='submit'>Подписаться</BigOrangeBtn>
+                  <p className='text-[13px] text-[#8F8F8F] mt-[17px]'>Нажимая на кнопку, вы соглашаетесь с Политикой конфиденциальности данных</p>
+                </form>
+            </div>
           </div>
         </section>
       </main>
