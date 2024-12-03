@@ -1,8 +1,19 @@
 import React from 'react'
+import HeaderSecond from '../../components/headerSecond/HeaderSecond'
 
 function Works() {
   return (
-    <div>Works</div>
+    <>
+      <header>
+        <div className="headerContainer">
+          <HeaderSecond />
+        </div>
+      </header>
+      <main>
+        <section>
+        </section>
+      </main>
+    </>
   )
 }
 
