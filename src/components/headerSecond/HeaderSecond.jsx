@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '../navbar/Navbar'
 
 function HeaderSecond() {
   return (
-    <div>HeaderSecond</div>
+    <>
+      <Navbar />
+      
+    </>
+
   )
 }
 
