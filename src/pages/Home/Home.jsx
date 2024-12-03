@@ -160,7 +160,7 @@ function Home() {
                   <p className='text-[18px] mt-[20px]'>И будьте в курсе наших <span className='font-bold'>секретных акций</span></p>
                 </div>
                 <form action="#" className='space-x-3'>
-                  <input 
+                  <input
                     type="text"
                     placeholder='Ваш e-mail'
                     className=' text-[18px] font-medium rounded-[5px] w-[250px] h-[58px] py-[20px] px-[22px] border-2 border-[#D8A47A]'/>
@@ -171,7 +171,7 @@ function Home() {
           </div>
         </section>
       </main>
-      <footer className='bg-[#34353D] min-h-[367px] p-[60px]'>
+      <footer>
         <Footer />
       </footer>
     </>
