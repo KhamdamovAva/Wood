@@ -41,7 +41,7 @@ function Footer() {
                   <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
                     <img src={section.youtube} alt="YouTube" />
                   </a>
-                </div>
+                </div> 
               </div>
             )}
           </div>
