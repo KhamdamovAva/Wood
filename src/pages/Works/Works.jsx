@@ -4,12 +4,17 @@ import { works, cards } from '../../Data/worksData'
 import Form from '../../components/form/Form'
 import headerForm from '../../assets/images/formImage.png'
 import Footer from '../../components/footer/Footer'
+import WorksBg from '../../assets/images/secondHeaderBG.png'
+import Navbar from '../../components/navbar/Navbar'
 function Works() {
   return (
     <>
       <header>
         <div className="headerContainer">
-          <HeaderSecond />
+          <Navbar />
+          <div className='bg-cover bg-no-repeat' style={{ backgroundImage: `url(${WorksBg})` }}>
+            <HeaderSecond title="Наши работы" />
+          </div>
         </div>
       </header>
       <main>
