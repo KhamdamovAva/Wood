@@ -10,7 +10,7 @@ function Footer() {
       <div className='Container'>
         <div className='flex items-start justify-between text-[#99999D]'>
           <div>
-            <img src={whiteLogo} alt="White Logotype" />
+            <Link to="/"><img src={whiteLogo} alt="White Logotype" /></Link>
             <p>© 2023. Все права защищены</p>
           </div>
           {footerlinks.map((section) => (
@@ -19,7 +19,7 @@ function Footer() {
               {section.links ? (
                 <ul>
                   {section.links.map((link, index) => (
-                    <li className='mb-[20px]' key={index}>
+                    <li className='mb-[20px] transition duration-500 ease-in-out hover:text-gray-300' key={index}>
                       <Link to={link.url}>{link.label}</Link>
                     </li>
                   ))}
@@ -33,13 +33,13 @@ function Footer() {
                   <p className='mb-[40px]'>{section.number}</p>
 
                   <div className="social-media-icons flex items-center space-x-[10px]">
-                    <a href={`https://wa.me/${section.number}`} target="_blank" rel="noopener noreferrer">
+                    <a href={`https://wa.me/${section.number}`} target="_blank">
                       <img src={section.whatsapp} alt="WhatsApp" />
                     </a>
-                    <a href="https://vk.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://vk.com" target="_blank" >
                       <img src={section.vk} alt="VK" />
                     </a>
-                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://youtube.com" target="_blank">
                       <img src={section.youtube} alt="YouTube" />
                     </a>
                   </div>
