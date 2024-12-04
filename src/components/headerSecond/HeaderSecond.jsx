@@ -10,9 +10,9 @@ function HeaderSecond() {
         <div className="Container text-white">
           <nav className='w-[270px] pt-[35px] mb-[90px]'>
             <ul className='flex items-center space-x-2'>
-              <li className='ml-[10px] mr-[30px]'><Link to="#">Назад</Link></li>
-              <li><Link to="#">Главная /</Link></li>
-              <li><Link to="#">Наши работы</Link></li>
+              <li className='ml-[10px] mr-[30px]'><Link to="/">Назад</Link></li>
+              <li><Link to="/">Главная /</Link></li>
+              <li><Link to="/works">Наши работы</Link></li>
             </ul>
           </nav>
           <div className='text-center'>
