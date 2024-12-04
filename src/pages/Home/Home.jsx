@@ -18,7 +18,6 @@ import Location from '../../components/Location/Location';
 import cooperationBg from '../../assets/images/cooperationBg.png'
 import Footer from '../../components/footer/Footer';
 import BigOrangeBtn from '../../components/buttons/BigOrangeBtn/BigOrangeBtn';
-
 function Home() {
   const [playing, setPlaying] = useState(false);
 
@@ -152,26 +151,26 @@ function Home() {
           <div className='Container'>
             <Location />
             <div className='mt-[67px] flex items-center px-[57px] justify-between'>
-                <div>
-                  <div className='flex text-[30px] space-x-[20px]'>
-                    <h3 className='uppercase text-[#222222] font-light'>оставьте</h3>
-                    <p className='uppercase text-[#ACA095] font-light '>ваш e-mail</p>
-                  </div>
-                  <p className='text-[18px] mt-[20px]'>И будьте в курсе наших <span className='font-bold'>секретных акций</span></p>
+              <div>
+                <div className='flex text-[30px] space-x-[20px]'>
+                  <h3 className='uppercase text-[#222222] font-light'>оставьте</h3>
+                  <p className='uppercase text-[#ACA095] font-light '>ваш e-mail</p>
                 </div>
-                <form action="#" className='space-x-3'>
-                  <input 
-                    type="text"
-                    placeholder='Ваш e-mail'
-                    className=' text-[18px] font-medium rounded-[5px] w-[250px] h-[58px] py-[20px] px-[22px] border-2 border-[#D8A47A]'/>
-                  <BigOrangeBtn type='submit'>Подписаться</BigOrangeBtn>
-                  <p className='text-[13px] text-[#8F8F8F] mt-[17px]'>Нажимая на кнопку, вы соглашаетесь с Политикой конфиденциальности данных</p>
-                </form>
+                <p className='text-[18px] mt-[20px]'>И будьте в курсе наших <span className='font-bold'>секретных акций</span></p>
+              </div>
+              <form action="#" className='space-x-3'>
+                <input
+                  type="text"
+                  placeholder='Ваш e-mail'
+                  className=' text-[18px] font-medium rounded-[5px] w-[250px] h-[58px] py-[20px] px-[22px] border-2 border-[#D8A47A]' />
+                <BigOrangeBtn type='submit'>Подписаться</BigOrangeBtn>
+                <p className='text-[13px] text-[#8F8F8F] mt-[17px]'>Нажимая на кнопку, вы соглашаетесь с Политикой конфиденциальности данных</p>
+              </form>
             </div>
           </div>
         </section>
       </main>
-      <footer className='bg-[#34353D] min-h-[367px] p-[60px]'>
+      <footer>
         <Footer />
       </footer>
     </>

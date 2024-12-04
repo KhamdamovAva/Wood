@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <nav className='flex items-center justify-between text-[14px] font-medium mb-[26px]'>
-      <a href="#"><img src={ambarIcon} alt="Logotype" /></a>
+      <Link to="/"><img src={ambarIcon} alt="Logotype" /></Link>
       <ul className='flex space-x-[44px] text-[#222222]'>
         <li><Link to="/catalog">Каталог</Link></li>
         <li><Link to="/about-board">Об амбарной доске</Link></li>
